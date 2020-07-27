@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id "com.commercehub.cucumber-jvm" version "0.11"
+    id "com.github.spacialcircumstances.gradle-cucumber-reporting" version "0.1.6"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    testImplementation 'io.cucumber:cucumber-java8:6.2.2'
+    testImplementation 'io.cucumber:cucumber-junit:6.2.2'
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}
+
+cucumberReports {
+    outputDir = file('target/')
+    buildId = '0'
+    reports = files('target/cucumber-report.json')
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+task cucumber() {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', 'json:target/cucumber-report.json',
+                    '--plugin', 'rerun:rerun/failed_scenarios.txt',
+                    '--glue', 'MobileAutomation',
+                    'src/test/resources/features']
+        }
+    }
+}
