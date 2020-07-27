@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-07-27T14:51:26.338Z",
+        "line": 6,
+        "name": "Launch app",
+        "description": "",
+        "id": "search-in-homepage;launch-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is in homepage",
+            "match": {
+              "location": "myapps.StepDefinition.HomepageStep.\u003cinit\u003e(HomepageStep.java:8)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@try"
+          }
+        ]
+      }
+    ],
+    "name": "Search in homepage",
+    "description": "",
+    "id": "search-in-homepage",
+    "keyword": "Feature",
+    "uri": "classpath:features/home.feature",
+    "tags": []
+  }
+]

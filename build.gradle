@@ -18,8 +18,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
     testImplementation 'io.cucumber:cucumber-java8:6.2.2'
     testImplementation 'io.cucumber:cucumber-junit:6.2.2'
-    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    //androidTestImplementation 'androidx.test:runner:1.1.0'
+    //androidTestImplementation 'androidx.test:rules:1.1.0'
 }
 
 cucumberReports {
@@ -44,7 +45,7 @@ task cucumber() {
                     '--plugin', 'pretty',
                     '--plugin', 'json:target/cucumber-report.json',
                     '--plugin', 'rerun:rerun/failed_scenarios.txt',
-                    '--glue', 'MobileAutomation',
+                    '--glue', 'StepDefinition',
                     'src/test/resources/features']
         }
     }
