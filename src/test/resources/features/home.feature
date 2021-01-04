@@ -4,4 +4,5 @@ Feature: Search in homepage
 
     @try
   Scenario: Launch app
-    Then user is in homepage
+    When user is in homepage
+      And user type "mutiarahanaa"

@@ -13,14 +13,30 @@ repositories {
     mavenCentral()
 }
 
+test {
+    useJUnitPlatform()
+}
+
+
 dependencies {
     testImplementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    testImplementation 'io.cucumber:cucumber-java8:6.2.2'
-    testImplementation 'io.cucumber:cucumber-junit:6.2.2'
-    //androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
-    //androidTestImplementation 'androidx.test:runner:1.1.0'
-    //androidTestImplementation 'androidx.test:rules:1.1.0'
+    testImplementation 'io.cucumber:cucumber-java8:6.8.1'
+    testImplementation 'io.cucumber:cucumber-junit:6.8.1'
+    compile 'io.github.cdimascio:java-dotenv:5.2.1'
+    compile group: 'io.cucumber', name: 'cucumber-picocontainer', version: '6.2.2'
+    compile 'io.appium:java-client:6.0.0-BETA5'
+    compile 'org.seleniumhq.selenium:selenium-java:3.11.0'
+    //testCompile 'io.cucumber:cucumber-java:2.4.0'
+    //testCompile 'io.cucumber:cucumber-junit:2.4.0'
+    //testCompile 'io.cucumber:cucumber-testng:2.4.0'
+    //testCompile 'org.testng:testng:6.14.3'
+}
+
+clean.doFirst {
+    delete "${rootDir}/rerun"
+    delete "${rootDir}/target"
+    delete "${rootDir}/out"
 }
 
 cucumberReports {
@@ -35,18 +51,20 @@ configurations {
     }
 }
 
-task cucumber() {
-    dependsOn assemble, testClasses
-    doLast {
-        javaexec {
-            main = "io.cucumber.core.cli.Main"
-            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = [
-                    '--plugin', 'pretty',
-                    '--plugin', 'json:target/cucumber-report.json',
-                    '--plugin', 'rerun:rerun/failed_scenarios.txt',
-                    '--glue', 'StepDefinition',
-                    'src/test/resources/features']
-        }
-    }
-}
+
+//task rerunCucumber() {
+//    dependsOn assemble, testClasses
+//    doLast {
+//        javaexec {
+//            systemProperties = System.properties
+//            main = "io.cucumber.core.cli.Main"
+//            classpath = configurations.testRuntimeClasspath + sourceSets.main.output + sourceSets.test.output
+//            args = [
+//                    '--plugin', 'pretty',
+//                    '--plugin', 'json:target/cucumber-report.json',
+//                    '--plugin', 'rerun:rerun/failed_scenarios.txt',
+//                    '--glue', 'myapps'
+//            ]
+//        }
+//    }
+//}

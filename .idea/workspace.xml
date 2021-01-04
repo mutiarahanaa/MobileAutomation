@@ -2,21 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4d989e-7ccf-48e3-8360-d63dabd5ea63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myapps/CucumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CucumberRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/MyAppFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/MyApps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/PageObject/Basepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/PageObject/Basepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/PageObject/HomepagePO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/HomepageStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/HomepageStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CucumberRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Launch#20app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CucumberRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Launch#20app.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4038129674382820596_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7635350041479034976_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/capabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capabilities.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/PageObject/HomepagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/PageObject/HomepagePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerun/failed_scenarios.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyAppFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/MyAppFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/MyApps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/PageObject/Basepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/PageObject/Basepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/PageObject/HomepagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/PageObject/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/HomepageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/HomepageStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_905715547.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149505402.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +92,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MobileAutomation" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MobileAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MobileAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MobileAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -89,6 +122,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="myapps" />
@@ -148,38 +185,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="127" key="#Inspections" timestamp="1595270292940">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="320" y="127" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1595270292940" />
-    <state x="320" y="127" width="800" height="717" key="#Intentions" timestamp="1594742673450">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="320" y="127" width="800" height="717" key="#Intentions/0.23.1440.877@0.23.1440.877" timestamp="1594742673450" />
-    <state x="443" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594749390891">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="443" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1594749390891" />
-    <state x="494" y="328" width="451" height="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594744892356">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="494" y="328" width="451" height="316" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1594744892356" />
-    <state x="399" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1595856411323">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1609784732771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1595856411323" />
-    <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1595255216649" />
-    <state x="458" y="221" key="extract.method.dialog" timestamp="1595300310811">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609784732771" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1609784732770">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="221" key="extract.method.dialog/0.23.1440.877@0.23.1440.877" timestamp="1595300310811" />
-    <state x="477" y="390" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1595270356201">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609784732770" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1609784732769">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="477" y="390" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1595270356201" />
-    <state x="385" y="211" width="670" height="675" key="run.anything.popup" timestamp="1594749861071">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609784732769" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1609784732771">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="211" width="670" height="675" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1594749861071" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609784732771" />
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1609776753314">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1609776753314" />
   </component>
 </project>

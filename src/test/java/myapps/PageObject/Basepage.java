@@ -10,5 +10,9 @@ public class Basepage extends Espresso {
         super(androidDriver);
     }
 
+    public Homepage homepagePO() {
+        return new Homepage(androidDriver);
+    }
+
 
 }
