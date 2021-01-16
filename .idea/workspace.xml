@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4d989e-7ccf-48e3-8360-d63dabd5ea63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/myapps/CucumberTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/CucumberRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/MyAppFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/MyAppFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/HomepageStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/HomepageStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener$TestResultStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener$TestResultStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capabilities.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/CucumberRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/MyAppFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/MyAppFactoryDeprecated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/MyApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/myapps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/HomepageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/myapps/HomepageStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/TestInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,16 +107,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="myapps" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="myapps.StepDefinition" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MobileAutomation [test]">
@@ -325,10 +291,10 @@
     </state>
     <state x="397" y="296" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1609928182957" />
     <state x="397" y="313" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1610825016990" />
-    <state x="383" y="226" width="674" height="486" key="find.popup" timestamp="1609941062783">
+    <state x="383" y="226" width="674" height="486" key="find.popup" timestamp="1610827061376">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="383" y="207" width="674" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1609930011434" />
-    <state x="383" y="226" width="674" height="486" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1609941062783" />
+    <state x="383" y="226" width="674" height="486" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1610827061376" />
   </component>
 </project>
