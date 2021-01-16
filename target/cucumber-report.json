@@ -11,7 +11,7 @@
         "steps": []
       },
       {
-        "start_timestamp": "2021-01-06T14:27:37.454Z",
+        "start_timestamp": "2021-01-16T21:07:44.735Z",
         "line": 6,
         "name": "Launch app",
         "description": "",
@@ -21,33 +21,20 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "user is in homepage",
-            "match": {
-              "location": "myapps.StepDefinition.HomepageStep.\u003cinit\u003e(HomepageStep.java:8)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat myapps.StepDefinition.HomepageStep.lambda$new$1(HomepageStep.java:15)\n\tat ✽.user type \"mutiarahanaa\"(classpath:features/home.feature:8)\n",
-              "duration": 1000000,
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 8,
             "name": "user type \"mutiarahanaa\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "mutiarahanaa",
-                  "offset": 11
-                }
-              ],
-              "location": "myapps.StepDefinition.HomepageStep.\u003cinit\u003e(HomepageStep.java:14)"
-            },
+            "match": {},
             "keyword": "And "
           }
         ],
@@ -62,7 +49,7 @@
     "description": "",
     "id": "search-in-homepage",
     "keyword": "Feature",
-    "uri": "classpath:features/home.feature",
+    "uri": "file:src/test/resources/features/home.feature",
     "tags": []
   }
 ]

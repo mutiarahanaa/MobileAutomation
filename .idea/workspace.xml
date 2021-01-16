@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4d989e-7ccf-48e3-8360-d63dabd5ea63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/StepDefinition/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/CucumberRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/MyAppFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/MyApps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/MyApps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/HomepageStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/myapps/StepDefinition/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener$TestResultStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/myapps/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/MobileAutomation-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capabilities.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capabilities.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerun/failed_scenarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rerun/failed_scenarios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myapps/CucumberTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myapps/CucumberTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,6 +284,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="427" y="88" key="#MobileAutomation_[generateCucumberReports]/0.0.1440.900@0.0.1440.900" timestamp="1609930065091" />
+    <state x="320" y="125" key="#Notifications" timestamp="1610831519104">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="125" key="#Notifications/0.25.1440.875@0.25.1440.875" timestamp="1610831519104" />
     <state x="458" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1609943163524">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -285,11 +316,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="264" y="75" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1610030599578" />
-    <state x="397" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1610825016990">
+    <state x="397" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1610831467832">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="397" y="296" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1609928182957" />
-    <state x="397" y="313" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1610825016990" />
+    <state x="397" y="313" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1610831467832" />
     <state x="383" y="226" width="674" height="486" key="find.popup" timestamp="1610827061376">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

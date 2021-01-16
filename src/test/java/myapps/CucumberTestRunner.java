@@ -22,7 +22,7 @@ import java.util.Objects;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {
-                "src/test/myapps/features",
+                "src/test/resources/features",
         },
         stepNotifications = true,
         glue = "StepDefinition",

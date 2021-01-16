@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Launch app" tests="3" skipped="3" failures="0" errors="0" timestamp="2021-01-16T21:07:44" hostname="MacBook-Pro-TRFTW.local" time="0.003">
+  <properties/>
+  <testcase name="user is in homepage" classname="Launch app" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="user type &quot;mutiarahanaa&quot;" classname="Launch app" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Launch app" time="0.014">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Feature: Search in homepage
+
+  Background:  ?[90m# src/test/resources/features/home.feature:3?[0m
+
+  @try
+  Scenario: Launch app           ?[90m# src/test/resources/features/home.feature:6?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
