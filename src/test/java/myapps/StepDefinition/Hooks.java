@@ -76,45 +76,4 @@ public class Hooks extends TestInstrument implements En {
         public static void beforeStep(Scenario mScenario) {
                 scenario = mScenario;
         }
-
-
 }
-//        private static Salad salad; // Automation Engine
-//        private static AndroidDriver<AndroidElement> androidDriver;
-//        protected static MyApps myapps;
-//
-//        @BeforeAll // Junit5 annotation
-//        public static void setUp() { // To start appium server and inject elements
-//                String elementPropertiesDirectory = "src/test/resources/elements/"; // Element properties file
-//                String capabilitiesFileName = "capabilities.properties";
-//                // You can choose other constructor to run automation
-//                salad = new Salad(PropertiesLoader.loadCapabilities(capabilitiesFileName),
-//                        elementPropertiesDirectory,
-//                        Driver.ESPRESSO,
-//                        LogLevel.DEBUG); // or Platform.IOS
-//                salad.start();
-//                myapps = new MyApps(salad.getAndroidDriver()); // or salad.getIosDriver();
-//        }
-//
-//        @AfterAll // J
-//        public static void tearDown() {
-//                salad.stop(Driver.ESPRESSO); // or Platform.IOS
-//        }
-//
-//        public static void resetApp() {
-//                salad.stop(Driver.ESPRESSO); // or Platform.IOS
-//        }
-//
-//        public static void takeScreenshot(String filename) {
-//                File srcFile = (File) salad.getAndroidDriver().getScreenshotAs(OutputType.FILE);
-//                File imageFile = new File("screenshot/" + filename + ".png");
-//                try{
-//                        FileUtils.copyFile(Objects.requireNonNull(srcFile), imageFile);
-//                        LogUtil.info("Screenshot Taken");
-//                }
-//                catch (Exception e){
-//                        LogUtil.error("Exception while taking screenshot", e);
-//                }
-//                salad.stop(Driver.ESPRESSO); // or Platform.IOS
-//        }
-//}
