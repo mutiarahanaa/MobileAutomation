@@ -11,32 +11,59 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
+//testLogger {
+//    theme 'mocha'
+//    showExceptions true
+//}
+
 test {
-    useJUnitPlatform()
+    //useJUnitPlatform()
+    systemProperties = System.properties
 }
 
 
 dependencies {
+    //Implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    testImplementation 'io.cucumber:cucumber-java8:6.8.1'
-    testImplementation 'io.cucumber:cucumber-junit:6.8.1'
-    compile 'io.github.cdimascio:java-dotenv:5.2.1'
-    compile group: 'io.cucumber', name: 'cucumber-picocontainer', version: '6.2.2'
+    testImplementation 'io.cucumber:cucumber-java8:4.7.1'
+    testImplementation 'io.cucumber:cucumber-junit:4.7.1'
     compile 'io.appium:java-client:6.0.0-BETA5'
     compile 'org.seleniumhq.selenium:selenium-java:3.11.0'
+    compile 'com.epam.reportportal:agent-java-cucumber:4.0.2'
+    compile 'io.github.cdimascio:java-dotenv:5.2.1'
     //testCompile 'io.cucumber:cucumber-java:2.4.0'
     //testCompile 'io.cucumber:cucumber-junit:2.4.0'
     //testCompile 'io.cucumber:cucumber-testng:2.4.0'
     //testCompile 'org.testng:testng:6.14.3'
+    //compile 'io.github.cdimascio:java-dotenv:5.2.1'
+    //compile group: 'io.cucumber', name: 'cucumber-picocontainer', version: '6.2.2'
 }
 
 clean.doFirst {
     delete "${rootDir}/rerun"
     delete "${rootDir}/target"
     delete "${rootDir}/out"
+}
+
+task rerunCucumber() {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '@rerun/failed_scenarios.txt',
+                    '--plugin', 'pretty',
+                    '--plugin', 'json:target/cucumber-report.json',
+                    '--plugin', 'rerun:rerun/failed_scenarios.txt',
+                    '--glue', 'myapps'
+            ]
+        }
+    }
 }
 
 cucumberReports {
@@ -50,21 +77,3 @@ configurations {
         extendsFrom testImplementation
     }
 }
-
-
-//task rerunCucumber() {
-//    dependsOn assemble, testClasses
-//    doLast {
-//        javaexec {
-//            systemProperties = System.properties
-//            main = "io.cucumber.core.cli.Main"
-//            classpath = configurations.testRuntimeClasspath + sourceSets.main.output + sourceSets.test.output
-//            args = [
-//                    '--plugin', 'pretty',
-//                    '--plugin', 'json:target/cucumber-report.json',
-//                    '--plugin', 'rerun:rerun/failed_scenarios.txt',
-//                    '--glue', 'myapps'
-//            ]
-//        }
-//    }
-//}
