@@ -11,8 +11,7 @@ public class myapps {
         this.androidDriver = androidDriver;
     }
 
-    public Homepage homePage() {
-
+    public Homepage homePO() {
         return new Homepage(androidDriver);
     }
 }

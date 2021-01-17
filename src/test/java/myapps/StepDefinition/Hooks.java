@@ -1,11 +1,11 @@
 package myapps.StepDefinition;
 
 import id.aldochristiaan.salad.util.LogUtil;
-import io.cucumber.core.api.Scenario;
-import io.cucumber.core.event.Status;
-import io.cucumber.java.Before;
 import io.cucumber.java8.En;
+import io.cucumber.java8.Scenario;
+import io.cucumber.java8.Status;
 import myapps.TestInstrument;
+import org.junit.Before;
 
 import java.util.HashMap;
 
@@ -16,16 +16,14 @@ public class Hooks extends TestInstrument implements En {
 
         private static Status lastScenarioStatus = Status.FAILED;
 
-
-
         public Hooks () {
 
-                Before(0, () -> {
+                Before(1, () -> {
                         setUp();
                         Runtime.getRuntime().addShutdownHook(new Thread(this::tearDown));
                 });
 
-                Before(1, (Scenario scenario) -> {
+                Before(3, (Scenario scenario) -> {
                         if (isFeatureNameNotExist(scenario)) {
                                 if (getStateOfFeature()) {
                                         LogUtil.error("reset session");
@@ -73,7 +71,7 @@ public class Hooks extends TestInstrument implements En {
         }
 
         @Before
-        public static void beforeStep(Scenario mScenario) {
-                scenario = mScenario;
+        public static void beforeStep(Scenario Scenarion) {
+                scenario = Scenarion;
         }
 }

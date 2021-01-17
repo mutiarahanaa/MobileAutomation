@@ -1,8 +1,6 @@
 Feature: Search in homepage
-
-  Background:
-
+#  Background:
     @try
   Scenario: Launch app
-    When user is in homepage
+      When user is in homepage
       And user type "mutiarahanaa"

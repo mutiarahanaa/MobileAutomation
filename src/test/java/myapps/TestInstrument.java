@@ -1,12 +1,13 @@
 package myapps;
 
+
 import id.aldochristiaan.salad.Salad;
 import id.aldochristiaan.salad.util.Driver;
 import id.aldochristiaan.salad.util.LogLevel;
 import id.aldochristiaan.salad.util.LogUtil;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.cucumber.core.api.Scenario;
+import io.cucumber.java8.Scenario;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -48,8 +49,7 @@ public class TestInstrument {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return getCapabilitiesProperties();
-
+        return capabilitiesProperties;
     }
 
     private static void updateCapabilitiesFromSystemProp() {
@@ -64,14 +64,12 @@ public class TestInstrument {
                 capabilitiesProperties.setProperty((String) e.getKey(), value);
             }
         }
-
-       // WaitDeviceStf.checkPropUsingSTF(capabilitiesProperties); // Ga dipake
         LogUtil.info(capabilitiesProperties.toString());
     }
 
     public void initiateSession() {
         salad.start();
-        //salad.initiateSession(Driver.ESPRESSO);
+
         androidDriver = salad.getAndroidDriver();
         myapps = new myapps(androidDriver);
     }
@@ -158,7 +156,7 @@ public class TestInstrument {
             byte[] screenshot = ((TakesScreenshot) androidDriver).getScreenshotAs(OutputType.BYTES);
             File imageFile = new File(dotenv.get("SCREENSHOT_PATH") + "/" + scenarioName + ".png");
             try {
-                scenario.embed(screenshot, "image/png");
+//                scenario.embed(screenshot,"image/png");
                 FileUtils.copyFile(Objects.requireNonNull(srcFile), imageFile);
                 LogUtil.info("Screenshot taken");
                 //commenting this for debug purpose
